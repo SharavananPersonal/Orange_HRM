@@ -22,6 +22,7 @@ public class Login_Page_WebElements extends Driver {
 
 	public Login_Page_WebElements()
 	{
+		
 		PageFactory.initElements(driver, this);
 	}
 
@@ -33,6 +34,7 @@ public class Login_Page_WebElements extends Driver {
 
 	public void username_textbox() throws Exception
 	{
+		System.out.println("Sample");
 		username.sendKeys(User_Credentials.excel_username());
 	}
 
